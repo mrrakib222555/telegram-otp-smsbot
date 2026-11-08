@@ -1,0 +1,21 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python cache / virtual environment
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local databases and logs
+*.sqlite3
+*.db
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
